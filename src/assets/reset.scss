@@ -1,0 +1,73 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+html,
+body,
+#app {
+	height: 100%;
+	overflow: hidden;
+}
+#app{
+	display: flex;
+	flex-direction: column;
+}
+.app-main{
+	flex: 1;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 933104 */
+  src: url('http://at.alicdn.com/t/font_933104_vtbhyo93gx.eot');
+  src: url('http://at.alicdn.com/t/font_933104_vtbhyo93gx.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_933104_vtbhyo93gx.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_933104_vtbhyo93gx.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_933104_vtbhyo93gx.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_933104_vtbhyo93gx.svg#iconfont') format('svg');
+}
+.icon{
+  font-family: 'iconfont';
+}
+a{
+	text-decoration: none;
+}
